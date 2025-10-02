@@ -21,4 +21,16 @@ html, body{
   .square-img {
     @apply absolute size-20 object-cover border-4 border-white rounded-2xl shadow-lg brightness-95
   }
+
+  .card-btn {
+    @apply bg-neutral-200 px-2.5 py-0.5 rounded-2xl
+  }
+
+  .faq{
+    @apply px-3 py-4 text-lg
+  }
+
+  .footer-style{
+    @apply list-none flex flex-col gap-3
+  }
 }

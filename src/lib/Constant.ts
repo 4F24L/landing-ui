@@ -1,5 +1,5 @@
 import { BsLayers, BsMenuButtonWide } from "react-icons/bs";
-import type { FeatCard, PropertyCard, sliderImg } from "./types";
+import type { BlogCardType, faqType, FeatCard, PropertyCardType, sliderImg } from "./types";
 import { MdOutlineMap } from "react-icons/md";
 
 
@@ -61,12 +61,12 @@ const featCards: FeatCard[] = [
     },
 ]
 
-const PropertyCards: PropertyCard[] = [
+const PropertyCards: PropertyCardType[] = [
     {
         image: "https://framerusercontent.com/images/7vrbQVhnM9SxokAtpslwtafiSsI.png?width=1200&height=686",
         title: "Alexandria",
         location: "Grand Harbor",
-        price: 4000,
+        price: 4000.00,
         beds: 4,
         baths: 2,
         link: "#"
@@ -75,7 +75,7 @@ const PropertyCards: PropertyCard[] = [
         image: "https://framerusercontent.com/images/KhlGzjqduOyluPddUqU1cV3ji5M.png?width=1200&height=686",
         title: "Bilvox",
         location: "Silver Heights",
-        price: 4000,
+        price: 4000.00,
         beds: 4,
         baths: 2,
         link: "#"
@@ -84,7 +84,7 @@ const PropertyCards: PropertyCard[] = [
         image: "https://framerusercontent.com/images/zQ2l2P38s9uqF1RZUpLVJ6acv5M.png?width=1200&height=686",
         title: "The  Giose",
         location: "East Heaven",
-        price: 4000,
+        price: 4000.00,
         beds: 4,
         baths: 2,
         link: "#"
@@ -93,14 +93,54 @@ const PropertyCards: PropertyCard[] = [
         image: "https://framerusercontent.com/images/jPeZmy7YCbe9AVjGZO5M98xuc.png?scale-down-to=1024&width=1200&height=686",
         title: "Leoxa Retreat",
         location: "Crown Valley",
-        price: 4000,
+        price: 4000.00,
         beds: 4,
         baths: 2,
         link: "#"
     },
 
+];
+
+const BlogCards: BlogCardType[] = [
+    {
+        image: "https://framerusercontent.com/images/v0vI9cDes2JwpNtpKj80EGParhM.png",
+        title: "The Estate Room",
+        tag: "New",
+        link: "#"
+    },
+    {
+        image: "https://framerusercontent.com/images/dEj9pbjZqA226TD4j3niWCb30A.png?scale-down-to=1024",
+        title: "Modern Villa Bedroom",
+        tag: "Popular",
+        link: "#"
+    },
+    {
+        image: "https://framerusercontent.com/images/LbxYjSyOrxuro47RGXMgdLEsQ4.png?scale-down-to=1024",
+        title: "Modern Villa Living Room",
+        tag: "New",
+        link: "#"
+    },
+];
+
+const faqs : faqType[] = [
+    {
+        question: "Can I customize the design of a home?",
+        answer: "Yes, you can personalize everything from layout to finishes to match your style."
+    },
+    {
+        question: "What is the process for purchasing a home?",
+        answer: "It’s simple and guided—from consultation to handover, we support you throughout."
+    },
+    {
+        question: "Do you offer fully custom-built homes?",
+        answer: "Absolutely. We build homes from scratch based on your unique vision."
+    },
+    {
+        question: "How long does it take to complete a home?",
+        answer: "It depends on customization. We’ll give you a clear timeline during your consultation."
+    },
 ]
 
 
 
-export { heroImg, squareImg1, squareImg2, logo, slider, user1, featCards, PropertyCards };
+export { heroImg, squareImg1, squareImg2, logo, slider, user1, featCards, PropertyCards, BlogCards, faqs };

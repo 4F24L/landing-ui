@@ -1,3 +1,4 @@
+import { MdStar } from "react-icons/md";
 import FeatureCard from "../../components/FeatureCard";
 import SectionHeader, {
   type HeaderProps,
@@ -13,7 +14,7 @@ const FeatureHeader: HeaderProps = {
 
 const FeatureSection = () => {
   return (
-    <div className=" mb-20">
+    <div className=" mb-28">
       <SectionHeader {...FeatureHeader} />
 
       <div className=" columns-3 gap-4 mt-12 max-w-7xl mx-auto">
@@ -23,6 +24,11 @@ const FeatureSection = () => {
           </div>
         ))}
       </div>
+
+      <button className=" flex items-center justify-center rounded-3xl bg-white text-lg px-5 py-2.5 gap-2 mx-auto my-8 shadow-md">
+        <MdStar color="#ff7926" />
+        Trusted by 50+ clients
+      </button>
     </div>
   );
 };

@@ -12,7 +12,7 @@ export interface FeatCard {
     description: string
 }
 
-export interface PropertyCard {
+export interface PropertyCardType {
     image: string
     title: string
     location: string
@@ -20,4 +20,15 @@ export interface PropertyCard {
     beds: number
     baths: number
     link: string
+}
+
+export interface BlogCardType {
+    image: string
+    title: string
+    tag: string
+    link: string
+}
+export interface faqType {
+    question: string
+    answer: string
 }

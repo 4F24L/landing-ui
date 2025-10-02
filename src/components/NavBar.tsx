@@ -6,10 +6,10 @@ const NavBar = () => {
         <p className=" font-medium text-lg px-2">Cetfar</p>
 
         <ul className="flex button-nav space-x-1.5">
-            <li>Features</li>
-            <li>Properties</li>
-            <li>Blog</li>
-            <li>Faq</li>
+            <li><a href="#features" >Features</a></li>
+            <li><a href="#properties" >Properties</a></li>
+            <li><a href="#blog" >Blog</a></li>
+            <li><a href="#faq" >Faq</a></li>
         </ul>
 
         <button className=" button-black">Get Started</button>
