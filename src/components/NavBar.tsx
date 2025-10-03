@@ -7,7 +7,7 @@ const NavBar = () => {
 
   return (
     <nav
-      className={`md:max-w-2xl w-full bg-white flex flex-col md:flex-row justify-between items-center mx-11 px-2.5 py-1 transition-[max-height] scale-105 duration-700 ease-in md:h-14 
+      className={`md:max-w-2xl w-full bg-white flex flex-col md:flex-row justify-between items-center mx-8 px-2.5 py-1 transition-[max-height] scale-105 duration-700 ease-in md:h-14 
         ${isOpen ? "max-h-72 h-64 rounded-4xl" : "max-h-16 h-16 rounded-full"}`}
     >
         <p className="hidden md:block font-medium text-lg px-2">Cetfar</p>
