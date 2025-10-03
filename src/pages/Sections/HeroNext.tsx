@@ -14,7 +14,7 @@ const HeroNext = () => {
         <MdStar color="#ff7926" />
         <MdStar color="#ff7926" />
       </div>
-      <p className=" text-5xl max-w-5xl text-center text-neutral-800 my-5 leading-tight">
+      <p className=" text-3xl max-w-sm md:text-5xl md:max-w-5xl text-center text-neutral-800 my-5 leading-tight">
         It feels healthier, smoother & more radiant than ever. I love knowing
         I’m using something natural and effective!
       </p>

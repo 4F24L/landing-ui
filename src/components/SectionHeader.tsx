@@ -8,8 +8,8 @@ const SectionHeader = (props: HeaderProps) => {
   return (
     <div className=" flex flex-col items-center justify-center max-w-3xl mx-auto space-y-3">
         <button className="bg-white text-black text-sm px-3 py-1 rounded-3xl shadow">{props.btnText}</button>
-        <p className="text-5xl text-center  leading-tight ">{props.title}</p>
-        {props.subtitle && (<p className=" text-center text-lg text-neutral-500 max-w-lg">{props.subtitle}</p>)}
+        <p className="text-3xl md:text-5xl max-w-xs sm:max-w-lg md:max-w-3xl text-center  leading-tight ">{props.title}</p>
+        {props.subtitle && (<p className=" text-center max-w-xs md:max-w-lg text-lg text-neutral-500 ">{props.subtitle}</p>)}
     </div>
   )
 }

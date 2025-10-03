@@ -17,7 +17,7 @@ const FaqSection = () => {
     <div className=" h-full">
         <SectionHeader {...FaqHeader} />
 
-        <div className=" flex flex-col max-w-3xl mx-auto mt-12 gap-4">
+        <div className=" flex flex-col max-w-sm sm:max-w-2xl md:max-w-3xl mx-auto mt-12 gap-4">
         {faqs.map((faq:faqType, index) => (
           <div key={index}>
             <FaqCard {...faq} />

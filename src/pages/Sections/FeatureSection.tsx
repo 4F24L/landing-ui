@@ -17,7 +17,7 @@ const FeatureSection = () => {
     <div className=" mb-28">
       <SectionHeader {...FeatureHeader} />
 
-      <div className=" columns-3 gap-4 mt-12 max-w-7xl mx-auto">
+      <div className=" md:columns-3 gap-4 mt-12 max-w-sm sm:max-w-lg md:max-w-7xl mx-auto">
         {featCards.map((card: FeatCard, index) => (
           <div key={index} className=" break-inside-avoid mb-4">
             <FeatureCard {...card} />

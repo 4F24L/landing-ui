@@ -15,15 +15,15 @@ const PropertiesSection = () => {
     <div className=" mb-28">
       <SectionHeader {...PropertiesHeader} />
 
-      <div className=" flex flex-wrap w-full max-w-7xl mx-auto mt-12">
+      <div className=" flex flex-col md:flex-row flex-wrap w-full max-w-md sm:max-w-2xl md:max-w-7xl mx-auto mt-12">
         {PropertyCards.map((card: PropertyCardType, index) => (
-          <div key={index} className="w-1/2 p-2">
+          <div key={index} className="md:w-1/2 p-2">
             <PropertyCard {...card} />
           </div>
         ))}
       </div>
 
-      <button className=" button-black flex mx-auto mt-14 ">See all properties</button>
+      <button className=" button-black flex mx-auto mt-8 md:mt-14 ">See all properties</button>
     </div>
   );
 };

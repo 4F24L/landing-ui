@@ -5,7 +5,7 @@ const Footer = () => {
     <div className=" h-full">
       <NewsLetter />
 
-      <div className=" gap-8 h-[30rem] flex justify-between items-center max-w-6xl mx-auto text-lg">
+      <div className=" gap-8 md:h-[30rem] flex flex-col md:flex-row justify-center md:justify-between md:items-center max-w-xs sm:max-w-2xl md:max-w-6xl mx-auto text-lg py-12 md:py-0">
         <div className=" flex flex-col gap-5">
           <p className=" font-semibold text-xl">Cetfar</p>
           <p className="text-wrap max-w-sm text-neutral-500 text-base">
@@ -13,7 +13,7 @@ const Footer = () => {
             to inspire your next journey.
           </p>
         </div>
-        <div className=" flex gap-10 leading-16 ">
+        <div className=" flex flex-col md:flex-row gap-10 leading-16 ">
           <div className="footer-style button-nav">
             <p>Pages</p>
             <li>Properties</li>

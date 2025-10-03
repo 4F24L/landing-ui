@@ -13,7 +13,7 @@ const PropertyCard = (card: PropertyCardType) => {
         <img
           src={card.image}
           alt={card.title}
-          className="w-full h-80 object-cover group-hover:scale-[1.015] duration-700 ease-in"
+          className="w-full h-56 sm:h-96  md:h-80 object-cover group-hover:scale-[1.015] duration-700 ease-in"
         />
       </div>
       <div className=" flex justify-between">
@@ -24,7 +24,6 @@ const PropertyCard = (card: PropertyCardType) => {
       </div>
       <div className=" flex justify-between">
         <span className=" flex gap-2 items-center text-neutral-600">
-          {" "}
           <GoLocation /> {card.location}
         </span>
         <span className="flex text-sm text-neutral-600 gap-2">

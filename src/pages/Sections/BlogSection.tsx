@@ -12,9 +12,9 @@ const BlogSection = () => {
     <div className=" mb-28">
         <SectionHeader {...BlogHeader}/>
 
-        <div className="flex max-w-7xl mx-auto mt-8">
+        <div className="flex flex-col md:flex-row max-w-7xl mx-auto mt-8">
           {BlogCards.map((card:BlogCardType, index) => (
-            <div key={index} className=" w-1/3 p-2">
+            <div key={index} className=" md:w-1/3 p-2">
               <BlogCard {...card} />
             </div>
           ))}

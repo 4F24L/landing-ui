@@ -13,11 +13,11 @@ const NewsLetter = () => {
       style={{
         backgroundImage: `url(${heroImg})`,
       }}
-      className={` bg-cover bg-center h-[500px] flex flex-col text-white justify-center items-center space-y-5 `}
+      className={` bg-cover bg-center brightness-90 h-96 sm:h-80 md:h-[500px] flex flex-col text-white justify-center items-center space-y-5 `}
     >
       <SectionHeader {...NewsLetterHeader} />
       <p className="-mt-3 mb-8">Mivar offers more than just a place to live</p>
-      <div className=" relative w-full max-w-lg rounded-3xl overflow-hidden flex justify-center items-center">
+      <div className=" relative w-full max-w-xs md:max-w-lg rounded-3xl overflow-hidden flex justify-center items-center">
           <button className="button-black absolute z-10 right-2 top-1">Submit</button>
         <input
           type="email"
@@ -26,7 +26,7 @@ const NewsLetter = () => {
         />
       </div>
 
-      <p className=" font-medium mt-8">Your Stay, Reimagined with Comfort and Care</p>
+      <p className=" text-lg max-w-xs text-center font-medium mt-8">Your Stay, Reimagined with Comfort and Care</p>
     </div>
   );
 };

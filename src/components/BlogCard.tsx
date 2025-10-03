@@ -11,7 +11,7 @@ const BlogCard = (card: BlogCardType) => {
         <img
           src={card.image}
           alt={card.title}
-          className="w-full h-64 object-cover group-hover:scale-[1.015] duration-700 ease-in"
+          className="w-full h-56 sm:h-96 md:h-64 object-cover group-hover:scale-[1.015] duration-700 ease-in"
         />
       </div>
       <div className=" flex justify-between">

@@ -33,7 +33,7 @@ const Slider = () => {
   }, [emblaApi, onSelect]);
 
   return (
-    <div className=" mt-20 w-full h-[35rem]">
+    <div className=" mt-20 w-full h-56 sm:h-[25rem] md:h-[35rem]">
       <div
         ref={emblaRef}
         className="embla__viewport overflow-hidden w-full h-full"
@@ -43,7 +43,7 @@ const Slider = () => {
             <div
               key={img.id}
               className={`embla__slide flex-shrink-0 relative pl-2 w-[85%] transition-all duration-700 ${
-                index == current ? " h-[30rem] z-9" : "h-96 opacity-55 z-0"
+                index == current ? " h-56 sm:h-[25rem] md:h-[30rem] z-9" : " h-36 sm:h-[15rem] md:h-96 opacity-55 z-0"
               }`}
             >
               <img
